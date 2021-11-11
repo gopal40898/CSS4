@@ -1,0 +1,183 @@
+h1{
+   color: black;
+   text-align: center;
+   justify-content: center;
+}
+body{
+    background-color: yellow;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(125, 125, 241);
+    position: relative;
+    animation-name: cursor;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    margin:30px;
+}
+@keyframes cursor{
+    0%{
+        transform: skewX(-18deg);
+    }
+    25%{
+        transform: skewX(15deg);
+    }
+    50%{
+        transform: skewX(-15deg);
+    }
+    75%{
+        transform: skewX(15deg);
+    }
+    100%{
+        transform:skewX(-15)
+    }
+
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(125, 125, 241);
+    position: relative;
+    animation-name: cursor-y;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    margin:30px;
+}
+@keyframes cursor-y{
+    0%{
+        transform: skewy(-18deg);
+    }
+    25%{
+        transform: skewy(18deg);
+    }
+    50%{
+        transform: skewy(-18deg);
+    }
+    75%{
+        transform: skewy(18deg);
+    }
+    100%{
+        transform:skewy(-18);
+    }
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(125, 125, 241);
+    position: relative;
+    animation-name: cursor-z;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    margin:30px;
+}
+@keyframes cursor-z{
+    from{
+        transform: rotate(-360deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+   
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(125, 125, 241);
+    position: relative;
+    animation-name: height;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    margin: 30px;
+}
+@keyframes height{
+    from{
+        height: 40px;
+    }
+    to{
+        height: 80px;
+    }
+}
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box5
+{
+height: 80px;
+width: 80px;
+background-color: rgb(125, 125, 241);
+position: relative;
+animation-name: width;
+animation-iteration-count: infinite;
+animation-duration: 6s;
+margin: 30px;
+}
+@keyframes width{
+from{
+     width : 40px;
+}
+to{
+    width : 80px;
+}
+
+}
+.container6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box6{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(125, 125, 241);
+    position: relative;
+    animation-name: rotation;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 6s;
+    margin: 30px;
+}
+@keyframes rotation{
+    0%{
+        transform: rotate(-90deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(-90deg);
+    }
+    75%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(-90deg);
+    }
+}
+a{
+    margin-left: 600px;
+    font-size: 25px
+}
+
